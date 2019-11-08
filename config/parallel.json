@@ -1,0 +1,36 @@
+{
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "build": "Screenshot-Parallel",
+    "name": "testing_screenshot",
+    "browserstack.debug": true
+  },
+
+  "environments": [{
+    "os": "Windows",
+    "os_version": "10",
+    "browser": "chrome",
+    "browser_version": "77.0"
+  },{
+    "os": "OS X",
+    "os_version": "High Sierra",
+    "browser": "Safari",
+    "browser_version": "11.1"
+  },{
+    "os": "OS X",
+    "os_version": "Mojave",
+    "browser": "Safari",
+    "browser_version": "12.1"
+  },{
+    "os": "OS X",
+    "os_version": "Sierra",
+    "browser": "Safari",
+    "browser_version": "10.1"
+  },{
+    "device": "iPhone 8 Plus",
+    "realMobile": "true",
+    "os_version": "11"
+  }]
+}
